@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\HP\eclipse-workspace\ZAA1\one_to_many_unidirectionalmapping\src\main\java\one_to_many_unidirectionalmapping\Controller.java"/>
+			<item value="C:\Users\HP\eclipse-workspace\ZAA1\Hibernate1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="jspii"/>
+			<item value="JSpiders"/>
+			<item value="jspiders"/>
+			<item value="Jspii"/>
+			<item value="Jspi1"/>
+			<item value="Jspiders"/>
+			<item value="Hibernate_layers"/>
+			<item value="Hibernate_2"/>
+			<item value="practice"/>
+			<item value="Practice"/>
+			<item value="J_Spiders"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="many_many_bidirectional"/>
+			<item value="many_to_many_unidirectional"/>
+			<item value="many_one_bidirectional"/>
+			<item value="one_many_bidirectionalmapping"/>
+			<item value="oneToone_bidirectionalmapping"/>
+			<item value="one_one_bidirectionalmapping"/>
+			<item value="one_one_unidirectionalmapping"/>
+			<item value="Hibernate_layers"/>
+			<item value="Hibernate2"/>
+			<item value="Hibernate1"/>
+			<item value="HibernatePractice"/>
+			<item value="Hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

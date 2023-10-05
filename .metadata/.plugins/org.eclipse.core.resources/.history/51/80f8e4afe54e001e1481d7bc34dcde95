@@ -1,0 +1,23 @@
+package one_to_many_unidirectionalmapping;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Controller {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("dev");
+		EntityManager emgr = emf.createEntityManager();
+		EntityTransaction etr = emgr.getTransaction();
+		
+		User user1 = new User();
+		User user2 = new User();
+		User user3 = new User();
+		
+		user1.setUid(11);
+		user1.setUname("User1");
+		user1.setMob(9848636);
+		
+	}
+}

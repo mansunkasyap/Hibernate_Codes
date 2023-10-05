@@ -1,0 +1,11 @@
+package hibernate_crud_operations;
+
+import javax.persistence.*;
+@Entity
+public class Cricket_players
+{
+	@Id
+	int id;
+	@cloumn(nullable="false")
+	String name;
+}

@@ -1,0 +1,2 @@
+int sid = sc.nextInt();
+		String sname = sc.next();

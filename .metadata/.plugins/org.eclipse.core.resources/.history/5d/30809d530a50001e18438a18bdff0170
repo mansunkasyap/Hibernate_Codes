@@ -1,0 +1,28 @@
+package sorting;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Selection {
+	static void selectionSort(int []b) {
+		for (int i = 0; i < b.length; i++) {
+			int minIndex = i;
+			for (int j = 0; j < b.length-1; j++) {
+				if(b[j] < b[minIndex])
+				{
+					minIndex = j;
+				}
+			}
+			if(minIndex != i) {
+				int temp = b[minIndex];
+				b[minIndex] = b[i];
+				b[i] = temp;
+			}
+		}
+		System.out.println(Arrays.toString(b));
+	}
+	public static void main(String[] args) {
+		int arr[] = {9, 3, 2, 1, 64};
+		selectionSort(arr);
+	}
+} 

@@ -1,0 +1,17 @@
+package one_to_many_unidirectionalmapping;
+
+import java.util.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Provider {
+	@Id
+	int pid;
+	@Column(nullable = false)
+	String pname;
+	@OneToMany
+	List<User>user = new ArrayList();
+}
